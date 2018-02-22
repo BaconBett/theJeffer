@@ -49,13 +49,13 @@ public class commandProcessor {
 	
 	public static void jeffContained(IMessage message) {
 	
-		 RequestBuffer.request(() -> message.addReaction(ReactionEmoji.of("jeff1", 411669737777659904L)));
+		 RequestBuffer.request(() -> message.addReaction(ReactionEmoji.of("jeff1", 416328510890704896L)));
 		 try {
 			 Thread.sleep(50);
 		 }catch(InterruptedException e) {
 			 e.printStackTrace();
 		 }
-		 RequestBuffer.request(() ->message.addReaction(ReactionEmoji.of("jeff2", 411669750767419392L)));
+		 RequestBuffer.request(() ->message.addReaction(ReactionEmoji.of("jeff2", 416328523733663746L)));
 		 
 	}
 
