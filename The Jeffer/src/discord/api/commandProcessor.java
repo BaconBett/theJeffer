@@ -38,7 +38,8 @@ public class commandProcessor {
 			commandWorks.say(command, channel);
 			System.out.println(debug1);
 		}else if (command[0].equals("guilds")) {
-			commandWorks.getGuilds(message, channel);
+			//commandWorks.getGuilds(message, channel);
+			channel.sendMessage("Out of Order");
 			System.out.println(debug1);
 		}
 		
@@ -61,7 +62,7 @@ public class commandProcessor {
 
 	public static void noCommand(IMessage message) {
 		
-		RequestBuffer.request(()->botMain.bot.changePlayingText("with " + Integer.toString(botMain.bot.getUsers().size()) + " Jeffs | WIP"));
+		// RequestBuffer.request(()->botMain.bot.changePlayingText("with " + Integer.toString(botMain.bot.getUsers().size()) + " Jeffs | WIP"));
 		
 	}
 	

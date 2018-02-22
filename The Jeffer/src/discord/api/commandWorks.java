@@ -32,7 +32,7 @@ public class commandWorks {
 		 RequestBuffer.request(()-> channel.sendMessage(text));
 		
 	}
-
+/*
 	public static void getGuilds(IMessage message, IChannel channel) {
 			
 			IGuild guild;
@@ -73,7 +73,7 @@ public class commandWorks {
 			
 		
 		
-	}
+	}*/
 	
 
 
