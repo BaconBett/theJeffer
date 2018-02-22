@@ -3,7 +3,7 @@ package discord.api;
 
 
 
-import discord.main.botMain;
+
 import sx.blah.discord.handle.impl.obj.ReactionEmoji;
 import sx.blah.discord.handle.obj.IChannel;
 
