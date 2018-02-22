@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ITA64tantsch_michel/Desktop/Toppest of all Siekrehts/Java/discordBotLibs/Discord4j-2.9.3-shaded.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/ITA64tantsch_michel/Desktop/Toppest%20of%20all%20Siekrehts/Java/discordBotLibs/Discord4j-2.9.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ITA64tantsch_michel/Desktop/Toppest of all Siekrehts/Java/discordBotLibs/CardinalOCSL_1.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/ITA64tantsch_michel/Desktop/Toppest%20of%20all%20Siekrehts/Java/discordBotLibs/CardinalOCSL_1.5_Javadoc.jar!/doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
