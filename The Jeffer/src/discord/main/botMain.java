@@ -9,7 +9,6 @@ import sx.blah.discord.util.DiscordException;
 public class botMain {
 	
 	
-	 //public static final IDiscordClient bot = createClient("NDEyMDIwOTAzNjA2NzQ3MTQ3.DWEL8w.IXPFabAVbA4NDyEajUiXHJIrZpc", true);
 	
 	 public static void main(String args[]) {
 		 
@@ -19,6 +18,7 @@ public class botMain {
 			 return;
 		 }
 		 IDiscordClient bot = createClient(args[0], true);
+		
 		 EventDispatcher dis = bot.getDispatcher();
 		 dis.registerListener(new botListener());
 		 

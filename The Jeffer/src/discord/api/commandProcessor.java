@@ -4,6 +4,7 @@ package discord.api;
 
 
 
+
 import sx.blah.discord.handle.impl.obj.ReactionEmoji;
 import sx.blah.discord.handle.obj.IChannel;
 
@@ -62,7 +63,7 @@ public class commandProcessor {
 
 	public static void noCommand(IMessage message) {
 		
-		// RequestBuffer.request(()->botMain.bot.changePlayingText("with " + Integer.toString(botMain.bot.getUsers().size()) + " Jeffs | WIP"));
+		// RequestBuffer.request(()->botMain.bot.changePlayingText("with " + Integer.toString(botMain.bot2.getUsers().size()) + " Jeffs | WIP"));
 		
 	}
 	
